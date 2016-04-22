@@ -10,8 +10,8 @@
 
 module.exports = (robot) ->
 
-  # robot.hear /hola 2bender/i, (res) ->
-  #   res.send "Hola que tal soy el bot :robot_face: de 2brains :simple_smile:"
+  #   robot.hear /hola 2bender |hola robot (.*)/gi, (msg) ->
+  #   msg.send "Hola que tal soy el bot :robot_face: de 2brains :simple_smile:"
   #   msg.send "escribe `@2bender: help` y podras ver los comandos para consultar "
   # 
   #
