@@ -17,7 +17,7 @@ module.exports = (robot) ->
   robot.enter (msg) ->
   #robot.hear /hola/i, (msg) -> #test local
   	console.log msg.message.room
-    if msg.message.room == 'test-2bender'
+  if msg.message.room == 'test-2bender'
       robot.send {room: msg.message.user.name}, "¡Hola, *#{msg.message.user.name}*! :wave:
         Soy #{robot.name} el :robot: de este grupo y te doy la bienvenida a *2Brains*
 
